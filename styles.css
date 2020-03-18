@@ -16,28 +16,9 @@ html,body{
     margin: 0;
     padding: 0;
 }
-#container a{
-    text-decoration: none;
-    color: #799B2B;
-    margin-top: 20px;
-    width: 100%;
-}
-#container i{
-    text-decoration: none;
-    color:rgb(248, 204, 43);
-    
-}
-#container .active{
-    background-color: rgb(248, 204, 43);
-    color: white;
-}
-#container .active i{
-    color: #799B2B;
-}
-
 
 nav{
-    width:10%;
+    width:11%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -48,14 +29,32 @@ nav{
     overflow-x: hidden; /* Disable horizontal scroll */
 
 }
+nav a{
+    text-decoration: none;
+    color: #799B2B;
+    margin-top: 20px;
+    width: 100%;
+}
+nav i{
+    text-decoration: none;
+    color:rgb(248, 204, 43);
+    
+}
+nav .active{
+    background-color: rgb(248, 204, 43);
+    color: white;
+}
+nav .active i{
+    color: #799B2B;
+}
+
 #intro-text{
     width: 50%;
     margin-left: 40%;
     margin-top: -280px;
     background-color: white;
     font-family: 'Baloo Da 2', cursive;
-    padding-left: 5%;
-    padding-top: 5%;
+    padding: 5%;
 }
 #intro-text button{
     background-color: #5A7001;
@@ -64,6 +63,7 @@ nav{
     font-family: 'Liu Jian Mao Cao', cursive;
     font-weight: bold;
     padding-bottom: 5%;
+    text-transform: uppercase;
 }
 #intro-text .btn{
     margin-bottom: 10%;
