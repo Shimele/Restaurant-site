@@ -62,12 +62,13 @@ nav{
 }
 #heading h2{
     font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: bold;
 }
 #intro-text .btn{
     margin-bottom: 10%;
 }
 
-#meals{
+#meal1{
     margin-top: 10%;
 }
 #meal-text{
@@ -77,6 +78,7 @@ nav{
 }
 #meal-text h1{
     font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: bold;
     padding-bottom: 20px;
 }
 .col-6{
@@ -92,4 +94,18 @@ nav{
     position: absolute;
     top: 60%;
     left: -60px;
+}
+
+#meal2{
+    margin-top: 10%;
+    
+}
+
+.col-6 #fufu{
+    position: absolute;
+    top: 60%;
+    left: 80px;
+}
+#meal2 #meal-text{
+    padding-top: 2%;
 }
