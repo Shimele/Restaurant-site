@@ -8,7 +8,7 @@ html,body{
     
 }
 #container{
-    background-image: url("images/fish.jpeg");
+    background-image: url("images/fufu.jpeg");
     background-size: cover;
     background-position-y: top;
     width: 100%;
@@ -42,11 +42,9 @@ nav{
     margin: 0;
     padding: 0;
     background-color: white;
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    float: right;
     z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
+    float: right;
+    right: 0; /* Stay at the right */
     overflow-x: hidden; /* Disable horizontal scroll */
 
 }
@@ -64,4 +62,31 @@ nav{
 }
 #intro-text .btn{
     margin-bottom: 10%;
+}
+
+#meals{
+    margin-top: 10%;
+}
+#meal-text{
+    padding-top: 8%;
+    padding-right: 10%;
+    font-family: 'Baloo Da 2', cursive;
+}
+#meal-text h1{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    padding-bottom: 20px;
+}
+.col-6{
+    
+}
+.col-6 #achu{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.col-6 #eru{
+    position: absolute;
+    top: 60%;
+    left: -60px;
 }
