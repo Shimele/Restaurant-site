@@ -63,6 +63,7 @@ nav{
 #heading h2{
     font-family: 'Liu Jian Mao Cao', cursive;
     font-weight: bold;
+    padding-bottom: 5%;
 }
 #intro-text .btn{
     margin-bottom: 10%;
