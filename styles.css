@@ -8,7 +8,7 @@ html,body{
     
 }
 #container{
-    background-image: url("images/fufu.jpeg");
+    background-image: url("images/soup.jpeg");
     background-size: cover;
     background-position-y: top;
     width: 100%;
@@ -56,6 +56,9 @@ nav{
     font-family: 'Baloo Da 2', cursive;
     padding-left: 5%;
     padding-top: 5%;
+}
+#intro-text button{
+    background-color: #5A7001;
 }
 #heading h2{
     font-family: 'Liu Jian Mao Cao', cursive;
