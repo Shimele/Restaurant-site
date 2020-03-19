@@ -5,6 +5,7 @@ html,body{
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #FAFAFA;
     
 }
 #container{
@@ -41,11 +42,11 @@ nav i{
     
 }
 nav .active{
-    background-color: rgb(248, 204, 43);
+    background-color: #790102;
     color: white;
 }
 nav .active i{
-    color: #799B2B;
+    color: rgb(248, 204, 43);
 }
 
 #intro-text{
@@ -70,7 +71,7 @@ nav .active i{
 }
 
 #meal1{
-    margin-top: 10%;
+    margin-top: 8%;
 }
 #meal-text{
     padding-top: 8%;
@@ -109,4 +110,90 @@ nav .active i{
 }
 #meal2 #meal-text{
     padding-top: 2%;
+}
+
+#special{
+    width: 70%;
+    margin-top: 10%;
+}
+#special h2{
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+#special .col-4{
+    width: 50px;
+    height: 450px;
+    
+}
+#special .col-4 p{
+    margin-top: 300px;
+    font-weight: bold;
+    
+}
+#special .col-4 p:hover{
+    color: #790102;
+    
+}
+#special .col-4 span{
+    border-radius: 50%;
+    padding: 10%;
+    background-color: #333333;
+    position: relative;
+    top: 70%;
+    left: 90%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Baloo Da 2', cursive;
+}
+#special .col-4 span:hover{
+    background-color: #790102;
+    
+}
+#special .col-4 .special-inner{
+    height: inherit;
+    width: 250px;
+    
+}
+#special #special-meal{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+    
+}
+.item{
+    padding: 20px;
+}
+#view-menu{
+    padding: 10px;
+    margin-top: 3%;
+    width: 150px;
+    height:50px;
+    margin-left: 35%;
+    background-color: white;
+    text-align: center;
+}
+#view-menu span{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #790102;
+    float: left;
+
+   
+}
+#view-menu a{
+    text-decoration:none;
+    color: #333333;
+    font-weight: bold;
+    float: left;
+    padding: 5px;
+
+   
+}
+#view-menu a:hover{
+    color: #790102;
+
 }

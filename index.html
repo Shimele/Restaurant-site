@@ -8,10 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+     <!-- AOS CSS animation link to style sheet -->
+    <link rel="stylesheet" href="index.css">
+    <!-- AOS CSS animation plugin -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/907f68c39a.js" crossorigin="anonymous"></script>
+
     <!-- custom CSS -->
     <link rel="stylesheet" href="styles.css">
-
     <title>Hello, world!</title>
   </head>
   <body>
@@ -51,7 +55,7 @@
           </p>
           <button type="button" class="btn btn-outline-success">Full Menu</button>
         </div>
-        <div class="col-6">
+        <div class="col-6" data-aos="fade-up">
           <img src="images/achu.jpeg" height="600" alt="" id="achu">
           <img src="images/eru.jpeg" width="300" height="200" alt="" id="eru">
         </div>
@@ -61,7 +65,7 @@
 
     <div id="meal2" class="container">
       <div id="first-meal" class="row">
-        <div class="col-6">
+        <div class="col-6" data-aos="fade-up">
           <img src="images/mbongo.jpg" height="600" alt="" id="achu">
           <img src="images/fufu.jpg" width="300" height="200" alt="" id="fufu">
         </div>
@@ -79,11 +83,50 @@
         </div>
       </div>
     </div>
+    <div class="container" id="special">
+      <h2 data-aos="fade-up">Special Meals</h2>
+      <div class="row">
+        <div class="col-4 ">
+          <div class="shadow p-3 mb-5 bg-white special-inner" data-aos="fade-up" data-aos-duration="1200">
+            <img src="images/special.png" width="300" height="200" alt="" id="special-meal">
+            <p>Lorem Ipsum Dolor </p>
+            <span>$50</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="shadow p-3 mb-5 bg-white  special-inner" data-aos="fade-up" data-aos-duration="1500">
+            <img src="images/special2.png" width="300" height="200" alt="" id="special-meal">
+            <p>Lorem Ipsum Dolor </p>
+            <span>$40</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="shadow p-3 mb-5 bg-white  special-inner" data-aos="fade-up">
+            <img src="images/special3.png" width="300" height="200" alt="" id="special-meal">
+            <p>Lorem Ipsum Dolor Sit </p>
+            <span>$55</span>
+          </div>
+        </div>
+      </div>
+      <div id="view-menu">
+      <span></span>
+      <a href="#"><p>View Menu</p></a>
+    </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="aos.js"></script>
+    <script>
+        // code for page animation using the AOS library
+        AOS.init({
+            offset:200,
+            duration: 2000,
+        });
+    </script>
   </body>
 </html>
