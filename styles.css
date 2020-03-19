@@ -37,15 +37,15 @@ nav a{
 }
 nav i{
     text-decoration: none;
-    color:rgb(248, 204, 43);
+    color:#EEA834;
     
 }
 nav .active{
-    background-color: #790102;
+    background-color: #B62713;
     color: white;
 }
 nav .active i{
-    color: rgb(248, 204, 43);
+    color: #EEA834;
 }
 
 #intro-text{
@@ -138,7 +138,7 @@ nav .active i{
     
 }
 #special .col-4 p:hover{
-    color: #790102;
+    color: #B62713;
     
 }
 #special .col-4 span{
@@ -154,7 +154,7 @@ nav .active i{
     font-family: 'Baloo Da 2', cursive;
 }
 #special .col-4 span:hover{
-    background-color: #790102;
+    background-color: #B62713;
     
 }
 #special .col-4 .special-inner{
@@ -184,7 +184,7 @@ nav .active i{
 #view-menu span{
     padding: 5px;
     border-radius: 50%;
-    background-color: #790102;
+    background-color: #B62713;
     float: left;
 
    
@@ -199,6 +199,6 @@ nav .active i{
    
 }
 #view-menu a:hover{
-    color: #790102;
+    color: #B62713;
 
 }
