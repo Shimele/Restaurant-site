@@ -5,11 +5,10 @@ html,body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;
     
 }
 #container{
-    background-image: url("images/soup.jpeg");
+    background-image: url("images/afrika.jpg");
     background-size: cover;
     background-position-y: top;
     width: 100%;
@@ -92,7 +91,7 @@ nav .active i{
     left: 0;
 }
 
-.col-6 #eru{
+.col-6 #folere{
     position: absolute;
     top: 60%;
     left: -60px;
@@ -103,7 +102,7 @@ nav .active i{
     
 }
 
-.col-6 #fufu{
+.col-6 #bitroot{
     position: absolute;
     top: 60%;
     left: 80px;
@@ -112,6 +111,11 @@ nav .active i{
     padding-top: 2%;
 }
 
+#special-section{
+    background-color: #FAFAFA;
+    margin-top: 10px;
+    
+}
 #special{
     width: 70%;
     margin-top: 10%;
@@ -121,6 +125,7 @@ nav .active i{
     font-weight: bold;
     margin-left: 40%;
     margin-bottom: 5%;
+    padding-top: 30px;
 }
 #special .col-4{
     width: 50px;
