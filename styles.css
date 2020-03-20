@@ -177,7 +177,7 @@ nav .active i{
     margin-top: 3%;
     width: 150px;
     height:50px;
-    margin-left: 35%;
+    margin-left:40%;
     background-color: white;
     text-align: center;
 }
@@ -201,4 +201,82 @@ nav .active i{
 #view-menu a:hover{
     color: #B62713;
 
+}
+
+#testimonials{
+    background-color: #FAFAFA;
+    padding-top: 5%;
+}
+#testimonials .container{
+    padding: 8% 5% 8% 5%;
+    background-color: white;
+}
+#testimonials h2{
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+#testimonials .container .row{
+    
+    min-width: 100%;
+}
+#testimonials .container .col-4{
+    border-left: 0.5px solid rgb(219, 212, 212);
+    padding: 3%;
+}
+#testimonials img{
+    border-radius: 50%;
+    border: 1px solid gray;
+    float: left;
+    
+}
+#testimonials .title{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15%;
+    
+}
+#testimonials .title h2{
+    margin-top: 20px;
+    margin-left: 0;
+    
+    
+}
+#testimonials .title {
+    
+}
+
+#reservations{
+    padding-top: 10%;
+    background-color: #FAFAFA;
+}
+#reservations .container{
+    margin: 0;
+    width: inherit;
+    background-color: #FAFAFA;
+}
+#reservations #reservation-form{
+    margin-top: 5%;
+    text-align: center;
+}
+#reservations #reservation-form .form-group{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+#reservations #reservation-form .form-group input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    background-color: #FAFAFA;
+}
+#reservations #reservation-form .btn{
+    margin-top: 10%;
+    border: 1px solid #EEA834 ;
+    color: #EEA834;
+    font-weight: bold;
+}
+#reservations #reservation-form .btn:hover{
+    background-color: #FAFAFA;
+    border: 1px solid #799B2B;
+    color: #799B2B;
 }
