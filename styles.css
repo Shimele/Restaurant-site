@@ -280,3 +280,40 @@ nav .active i{
     border: 1px solid #799B2B;
     color: #799B2B;
 }
+
+#association-container{
+    width: 100%;
+    padding-top: 10%;
+    background-color: #FAFAFA;
+    height: auto;
+}
+#association{
+    width: 70%;
+    margin-left: 30%;
+    text-align: center;
+    
+    
+}
+#association h2{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: bold;
+}
+#association p{
+    font-family: 'Baloo Da 2', cursive;
+    margin-bottom: 10%;
+    color: rgb(71, 63, 63);
+}
+#association-container div{
+    display: inline-block;
+    padding-right: 50px;
+    
+}
+#association-container div img{
+  border-radius: 12%;
+    
+}
+#association-container div #first-image{
+    margin-left: 30%;
+      
+  }
+
