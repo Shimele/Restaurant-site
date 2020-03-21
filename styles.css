@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Liu+Jian+Mao+Cao&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Pacifico|Parisienne&display=swap');
 
 html,body{
     width: 100%;
@@ -18,7 +18,7 @@ html,body{
 }
 
 nav{
-    width:11%;
+    width:12%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -60,7 +60,7 @@ nav .active i{
     background-color: #5A7001;
 }
 #heading h2{
-    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Gochi Hand', cursive;
     font-weight: bold;
     padding-bottom: 5%;
     text-transform: uppercase;
@@ -78,7 +78,7 @@ nav .active i{
     font-family: 'Baloo Da 2', cursive;
 }
 #meal-text h1{
-    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Gochi Hand', cursive;
     font-weight: bold;
     padding-bottom: 20px;
 }
@@ -121,7 +121,7 @@ nav .active i{
     margin-top: 10%;
 }
 #special h2{
-    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Gochi Hand', cursive;
     font-weight: bold;
     margin-left: 40%;
     margin-bottom: 5%;
@@ -249,6 +249,10 @@ nav .active i{
     padding-top: 10%;
     background-color: #FAFAFA;
 }
+#reservations h2{
+    font-family: 'Gochi Hand', cursive;
+}
+
 #reservations .container{
     margin: 0;
     width: inherit;
@@ -287,33 +291,53 @@ nav .active i{
     background-color: #FAFAFA;
     height: auto;
 }
+#association-container .row{
+    width: 100%;
+}
+#association-container .row .prawn{
+   position: relative;
+   
+}
 #association{
-    width: 70%;
-    margin-left: 30%;
     text-align: center;
-    
-    
+    background-image: url("images/chiken.png");
+    background-size: cover;
+    background-position: top;
+    height: 65%;
 }
 #association h2{
-    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Gochi Hand', cursive;
     font-weight: bold;
+}
+#association h3{
+    font-family: 'Parisienne', cursive;
+    color: #921504;
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    left: 15%;
 }
 #association p{
     font-family: 'Baloo Da 2', cursive;
     margin-bottom: 10%;
-    color: rgb(71, 63, 63);
+    color:  rgb(141, 137, 137);
 }
-#association-container div{
-    display: inline-block;
-    padding-right: 50px;
-    
+
+#association-container .spoon{
+    padding-left: 8%;
+    margin-top: 25%;
+    position: relative;
 }
-#association-container div img{
-  border-radius: 12%;
-    
-}
-#association-container div #first-image{
-    margin-left: 30%;
+#association-container .spoon-text{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    font-family: 'Parisienne', cursive;
+    color: rgb(180, 121, 2);
       
+  }
+  #association-container .spoon-text p{
+  font-size: large;
   }
 
