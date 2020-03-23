@@ -17,7 +17,7 @@ html,body{
 }
 
 nav{
-    width:12%;
+    width: auto;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -35,10 +35,12 @@ nav a{
     width: 100%;
     font-family: 'Spirax', cursive;
     font-size: large;
+
 }
 nav i{
     text-decoration: none;
     color:#EEA834;
+    padding-right: 10px;
     
 }
 nav .active{
@@ -51,7 +53,7 @@ nav .active i{
 
 #intro-text{
     width: 50%;
-    margin-left: 40%;
+    margin-left: 42%;
     margin-top: -280px;
     background-color: white;
     font-family: 'Baloo Da 2', cursive;
@@ -70,22 +72,59 @@ nav .active i{
     margin-bottom: 10%;
 }
 
+#meal-heading{
+    margin-bottom: 8%;
+    margin-left: 40%;  
+}
+#meal-heading h2{ 
+    font-family: 'Courgette', cursive;
+}
+#meal-heading p{
+    color: rgb(180, 175, 175);
+}
+
+#first-meal{
+    
+}
 #meal1{
     margin-top: 8%;
+    margin-bottom: 15%;
+    text-align: center;
 }
+#meal1 .btn{
+    color: #B62713;
+    border: none;
+}
+#meal1 .btn:hover{
+    background-color:#FFFFFF;
+    font-weight: bold;
+}
+#meal1 p{
+    color: rgb(180, 175, 175);
+}
+#meal1 h3{
+    font-family: 'Courgette', cursive;
+}
+#meal1 h4{
+    color: #E4A819;
+}
+
 #meal1 .btn{
     font-family: 'Charm', cursive;
 }
-#meal-text{
-    padding-top: 8%;
-    padding-right: 10%;
+#meal1 .col-4{
+   
+}
+#meal1 #meal-text{
+   text-align: center;
+   padding: 3%;
 }
 #meal-text h1{
     font-family: 'Courgette', cursive;
     padding-bottom: 20px;
 }
 
-.col-6 #achu{
+.col-6 #mbongo{
     position: relative;
     top: 0;
     left: 0;
@@ -226,8 +265,11 @@ nav .active i{
     min-width: 100%;
 }
 #testimonials .container .col-4{
-    border-left: 0.5px solid rgb(219, 212, 212);
+    border-left: 0.5px solid rgb(163, 158, 158);
     padding: 3%;
+}
+#testimonials .container .col-4 p{
+    color: rgb(156, 152, 152);
 }
 #testimonials img{
     border-radius: 50%;
@@ -349,3 +391,76 @@ nav .active i{
   font-size: large;
   }
 
+
+  /*footer section */
+
+  #gallery{
+    padding: 0;
+    min-width: 100%;
+}
+#gallery .row img{
+    height:auto;
+    display: block;
+    transition: .5s ease;
+    display:block;
+}
+  
+  #gallery .row .middle {
+    opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+  }
+  #gallery .row .col{
+    position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+    max-height: 240px;
+
+  }
+
+  #gallery .row .text {
+    color: white;
+    padding: 10px 25px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    display: inline-block;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+  
+  #gallery .row .col:hover {
+    opacity: 1;
+  }
+  
+  #gallery .row .middle:hover {
+    opacity: 1;
+  }
+ 
+
+  .layer {
+    background-color: rgba(121, 121, 117, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
