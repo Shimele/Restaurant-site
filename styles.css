@@ -60,13 +60,20 @@ nav .active i{
     padding: 5%;
 }
 #intro-text button{
-    background-color: rgb(186, 214, 75);
+    color: #B62713;
+    border: none;
     font-family: 'Charm', cursive;
+}
+#intro-text button:hover{
+    font-weight: bold;
 }
 #heading h2{
     font-family:  'Courgette', cursive;
     padding-bottom: 5%;
     text-transform: uppercase;
+}
+#heading p{
+    color: rgb(139, 137, 137);
 }
 #intro-text .btn{
     margin-bottom: 10%;
@@ -100,7 +107,7 @@ nav .active i{
     font-weight: bold;
 }
 #meal1 p{
-    color: rgb(180, 175, 175);
+    color: rgb(150, 146, 146);
 }
 #meal1 h3{
     font-family: 'Courgette', cursive;
@@ -340,6 +347,7 @@ nav .active i{
     padding-top: 10%;
     background-color: #FAFAFA;
     height: auto;
+    padding-bottom: 10%;
 }
 #association-container .row{
     width: 100%;
@@ -394,18 +402,18 @@ nav .active i{
 
   /*footer section */
 
-  #gallery{
+  #footer{
     padding: 0;
     min-width: 100%;
 }
-#gallery .row img{
+#footer .row img{
     height:auto;
     display: block;
     transition: .5s ease;
     display:block;
 }
   
-  #gallery .row .middle {
+  #footer .row .middle {
     opacity: 1;
 	position: absolute;
 	top: 0;
@@ -422,7 +430,7 @@ nav .active i{
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
   }
-  #gallery .row .col{
+  #footer .row .col{
     position: relative;
 	display: inline-block;
 	overflow: hidden;
@@ -431,7 +439,7 @@ nav .active i{
 
   }
 
-  #gallery .row .text {
+  #footer .row .text {
     color: white;
     padding: 10px 25px;
     font-family: 'Encode Sans Expanded', sans-serif;
@@ -447,11 +455,11 @@ nav .active i{
 	transform: translate(-50%, -50%);
   }
   
-  #gallery .row .col:hover {
+  #footer .row .col:hover {
     opacity: 1;
   }
   
-  #gallery .row .middle:hover {
+  #footer .row .middle:hover {
     opacity: 1;
   }
  
