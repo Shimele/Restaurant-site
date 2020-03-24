@@ -99,6 +99,10 @@ nav .active i{
     text-align: center;
     margin-left:3%;
 }
+#meal1.container{
+    
+  
+}
 #meal1 .btn{
     color: #B62713;
     border: none;
@@ -261,6 +265,7 @@ nav .active i{
 #testimonials{
     background-color: #FAFAFA;
     padding-top: 5%;
+    margin: 0 auto;
 }
 #testimonials .container{
     padding: 8% 5% 8% 5%;
