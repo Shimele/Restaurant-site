@@ -94,10 +94,9 @@ nav .active i{
     
 }
 #meal1{
-    margin-top: 8%;
-    margin-bottom: 15%;
+   margin: 0 auto;
     text-align: center;
-    margin-left:3%;
+    
 }
 #meal1.container{
     
@@ -139,21 +138,19 @@ nav .active i{
     padding-bottom: 20px;
 }
 
-.col-6 #mbongo{
+.col-6 #pudding{
     position: relative;
     top: 0;
     left: 0;
 }
 
-.col-6 #folere{
-    position: absolute;
-    top: 60%;
-    left: -60px;
-}
-
 #meal2{
     margin-top: 10%;
-    margin-left: 5%;
+    
+    
+}
+#meal2 .col-6{
+    
     
 }
 #meal2 .btn{
@@ -163,8 +160,8 @@ nav .active i{
 
 .col-6 #bitroot{
     position: absolute;
-    top: 60%;
-    left: 80px;
+    top: 75%;
+    left: 280px;
 }
 #meal2 #meal-text{
     padding-top: 2%;
@@ -412,10 +409,10 @@ nav .active i{
   }
 
 
+
   /*footer section */
 
   #footer{
-    padding: 0;
     min-width: 100%;
 }
 #footer .row img{
@@ -442,19 +439,23 @@ nav .active i{
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
   }
+  #footer .row{
+    width: 100%;
+  }
   #footer .row .col{
     position: relative;
 	display: inline-block;
 	overflow: hidden;
 	max-width: 100%;
     max-height: 240px;
-
+    
   }
 
   #footer .row .text {
+    width: 80%;
+    margin: 0 auto;
     color: white;
     padding: 10px 25px;
-    font-family: 'Encode Sans Expanded', sans-serif;
     font-size: larger;
     font-weight: bold;
     display: inline-block;
@@ -471,10 +472,49 @@ nav .active i{
     opacity: 1;
   }
   
+  #footer .row #palmares {
+    margin-left: 25%;
+    text-align: center;
+  }
+  #footer .row #palmares div {
+    float: left;
+    padding-right: 5%;
+  }
+  #footer .row #palmares div i{
+   font-size: 50px;
+   margin-bottom: 15px;
+   color: #B0B42B;
+   padding: 8%;
+   border-radius: 50%;
+  }
+  #footer .row #palmares div i:hover{
+    border: 2px dotted;
+   }
+  #footer .row #palmares div span{
+    font-family: 'Parisienne', cursive;
+   }
+   #footer .row #palmares div p{
+    font-family: 'Courgette', cursive;
+    color: rgb(247, 175, 93);
+    font-weight: lighter;
+   }
   #footer .row .middle:hover {
     opacity: 1;
   }
  
+  #footer .row .middle #footer-icons{
+    margin-top: 12%;
+    margin-left: 43%;
+    padding-bottom: 5%;
+    
+  }
+  #footer .row .middle #footer-icons a{
+    padding: 2%;
+    font-size: 30px;
+    text-decoration: none;
+    color: #B0B42B;
+    
+  }
 
   .layer {
     background-color: rgba(121, 121, 117, 0.3);
