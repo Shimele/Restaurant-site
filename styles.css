@@ -6,7 +6,7 @@ html,body{
     padding: 0;
     
 }
-#container{
+#nav-container{
     background-image: url("images/jellof.png");
     background-size: cover;
     background-position: left;
@@ -59,6 +59,7 @@ nav .active i{
     font-family: 'Baloo Da 2', cursive;
     padding: 5%;
 }
+
 #intro-text button{
     color: #B62713;
     border: none;
@@ -81,7 +82,7 @@ nav .active i{
 
 #meal-heading{
     margin-bottom: 8%;
-    margin-left: 40%;  
+    text-align: center;
 }
 #meal-heading h2{ 
     font-family: 'Courgette', cursive;
@@ -95,7 +96,7 @@ nav .active i{
 }
 #meal1{
    margin: 0 auto;
-    text-align: center;
+   text-align: center;
     
 }
 #meal1.container{
@@ -137,85 +138,89 @@ nav .active i{
     font-family: 'Courgette', cursive;
     padding-bottom: 20px;
 }
+  
+.food-course{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
 
-.col-6 #pudding{
+}
+
+  .food-course .row .col{
     position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+    max-height: 240px;
+    
+  }
+
+  .layer {
+    background-color: rgba(121, 121, 117, 0.3);
+    position: absolute;
     top: 0;
     left: 0;
-}
-
-#meal2{
-    margin-top: 10%;
-    
-    
-}
-#meal2 .col-6{
-    
-    
-}
-#meal2 .btn{
-    font-family: 'Charm', cursive;
-    border: none;
-}
-
-.col-6 #bitroot{
-    position: absolute;
-    top: 75%;
-    left: 280px;
-}
-#meal2 #meal-text{
-    padding-top: 2%;
-    
+    width: 100%;
+    height: auto;
 }
 
 #special-section{
     background-color: #FAFAFA;
-    margin-top: 10px;
+    margin: auto;
+    width: 80%;
     
 }
+#special .col-lg-4 .special-inner img{
+    width: 13rem;
+}
+#special-section .row{
+    width: 100%;
+    padding: 0;
+}
 #special{
-    width: 70%;
+    width: 100%;
     margin-top: 10%;
+    text-align: center;
+
 }
 #special h2{ 
     font-family: 'Courgette', cursive;
-    margin-left: 40%;
     margin-bottom: 5%;
     padding-top: 30px;
 }
-#special .col-4{
+#special .col-lg-4{
     width: 50px;
     height: 450px;
     
 }
-#special .col-4 p{
+#special .col-lg-4 p{
     margin-top: 300px;
     font-weight: bold;
     
 }
-#special .col-4 p:hover{
+#special .col-lg-4 p:hover{
     color: #B62713;
     
 }
-#special .col-4 span{
+#special .col-lg-4 span{
     border-radius: 50%;
     padding: 10%;
     background-color: #333333;
     position: relative;
     top: 70%;
-    left: 90%;
+    left: 45%;
     text-align: center;
     color: white;
     font-weight: bold;
     font-family: 'Baloo Da 2', cursive;
 }
-#special .col-4 span:hover{
+#special .col-lg-4 span:hover{
     background-color: #B62713;
     
 }
-#special .col-4 .special-inner{
-    height: inherit;
-    width: 250px;
+#special .col-lg-4 .special-inner{
+    height: auto;
+    width: auto;
     
 }
 #special #special-meal{
@@ -260,16 +265,17 @@ nav .active i{
 }
 
 #testimonials{
+    width: 80%;
     background-color: #FAFAFA;
     padding-top: 5%;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
 }
 #testimonials .container{
     padding: 8% 5% 8% 5%;
     background-color: white;
 }
 #testimonials h2{
-    margin-left: 40%;
     margin-bottom: 5%;
     font-family: 'Courgette', cursive;
 }
@@ -280,8 +286,8 @@ nav .active i{
 #testimonials .container .row{
     min-width: 100%;
 }
-#testimonials .container .col-4{
-    border-left: 0.5px solid rgb(163, 158, 158);
+#testimonials .container .col-sm{
+    border-left: 0.5px solid #EEA834;
     padding: 3%;
 }
 #testimonials .container .col-4 p{
@@ -322,6 +328,9 @@ nav .active i{
     margin: 0;
     width: inherit;
     background-color: #FAFAFA;
+}
+form{
+    text-align: center;
 }
 #reservations #reservation-form{
     margin-top: 5%;
@@ -391,12 +400,13 @@ nav .active i{
 }
 
 #association-container .spoon{
-    padding-left: 8%;
+    padding-left: 10%;
     margin-top: 25%;
     position: relative;
 }
 #association-container .spoon-text{
-    width: 50%;
+    width: 80%;
+    margin-left: 3%;
     position: absolute;
     left: 0;
     top: 40%;
@@ -405,122 +415,108 @@ nav .active i{
       
   }
   #association-container .spoon-text p{
-  font-size: large;
+  font-size: 1rem;
   }
 
 
 
   /*footer section */
 
-  #footer{
-    min-width: 100%;
-}
-#footer .row img{
-    height:auto;
-    display: block;
-    transition: .5s ease;
-    display:block;
-}
-  
-  #footer .row .middle {
-    opacity: 1;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
-	color: #fff;
-	padding: 15px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
-  }
-  #footer .row{
-    width: 100%;
-  }
-  #footer .row .col{
-    position: relative;
-	display: inline-block;
-	overflow: hidden;
-	max-width: 100%;
-    max-height: 240px;
-    
-  }
 
-  #footer .row .text {
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-    padding: 10px 25px;
-    font-size: larger;
-    font-weight: bold;
-    display: inline-block;
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-  }
-  
-  #footer .row .col:hover {
-    opacity: 1;
-  }
-  
-  #footer .row #palmares {
-    margin-left: 25%;
-    text-align: center;
-  }
-  #footer .row #palmares div {
-    float: left;
-    padding-right: 5%;
-  }
-  #footer .row #palmares div i{
-   font-size: 50px;
-   margin-bottom: 15px;
-   color: #B0B42B;
-   padding: 8%;
-   border-radius: 50%;
-  }
-  #footer .row #palmares div i:hover{
-    border: 2px dotted;
-   }
-  #footer .row #palmares div span{
-    font-family: 'Parisienne', cursive;
-   }
-   #footer .row #palmares div p{
-    font-family: 'Courgette', cursive;
-    color: rgb(247, 175, 93);
-    font-weight: lighter;
-   }
-  #footer .row .middle:hover {
-    opacity: 1;
-  }
- 
-  #footer .row .middle #footer-icons{
-    margin-top: 12%;
-    margin-left: 43%;
-    padding-bottom: 5%;
+@media (max-width: 576px) {
+    #nav-container{
+        background-position: right;
+        border-bottom: 1px solid rgb(143, 97, 5);
+        
+    }
+    .full-container{
+        max-width: 80%;
+        margin:0 auto;
+    }
     
-  }
-  #footer .row .middle #footer-icons a{
-    padding: 2%;
-    font-size: 30px;
-    text-decoration: none;
-    color: #B0B42B;
+    nav{
+        display: none !important;
+    }
+    #intro-text{
+        border-top: 1px solid rgb(143, 97, 5);
+        width: 80%;
+        margin: auto;
+        margin-top: -15%;
+       
+    }
+    #heading{
+        text-align: center;
+        border-bottom: 0.3px solid rgb(143, 97, 5);
+        margin-bottom: 15%;
+    }
+    #heading h2{
+        font-size: 1.2rem;
+    }
+    #heading h4{
+        font-size: 1rem;
+    }
+    .food-course{
+        height: 300px;
+        
     
-  }
-
-  .layer {
-    background-color: rgba(121, 121, 117, 0.3);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    }
+    .food-course .row{
+      
+        height: inherit;
+        
+      }
+     
+    
+      .col {
+        
+        height: inherit;
+    }
+    .layer {
+        
+        height: 300px;
+    }
+    
+    #special .col-lg-4{
+        width: auto;
+    }
+    #special{
+        width: 100%;  
+    }
+    #special .col-lg-4 .special-inner{
+        width: 100%;
+    }
+    #special .col-lg-4 .special-inner img{
+        width: 13rem;
+    }
+    #special .col-lg-4 span{
+        padding: 5%;
+    }
+    #testimonials h2{
+        margin: 0 auto;
+        margin-bottom: 10%;
+        
+    } 
+    #association p{
+        margin-bottom: 3%;
+    }
+    
+    #association-container .spoon{
+        padding-left: 0%;
+        margin-top: 10%;
+    }
+    #association-container .spoon-text{
+        width: 90%;
+        padding-left: 5%;
+        position: absolute;
+        color: rgb(143, 97, 5); 
+    }
+    #association-container .spoon{
+       margin-bottom: 5%;
+    }
+      #association-container .spoon-text p{
+      font-size: 1.5rem;
+      }
+    
+    
+    
 }
