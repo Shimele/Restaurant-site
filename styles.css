@@ -445,6 +445,11 @@ form{
         margin-top: -15%;
        
     }
+    #intro-text .soul{
+        margin-top: -20%;
+        margin-bottom: 10%;
+       
+    }
     #heading{
         text-align: center;
         border-bottom: 0.3px solid rgb(143, 97, 5);
