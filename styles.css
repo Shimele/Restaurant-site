@@ -446,8 +446,11 @@ form{
        
     }
     #intro-text .soul{
-        margin-top: -20%;
-        margin-bottom: 10%;
+        color: #ffffff;
+        font-weight: bold;
+        margin-top: -30%;
+        font-size: 1rem;
+        margin-bottom: 20%;
        
     }
     #heading{
