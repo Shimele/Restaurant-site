@@ -425,6 +425,7 @@ form{
 
 @media (max-width: 576px) {
     #nav-container{
+        height: 50%;
         background-position: right;
         border-bottom: 1px solid rgb(143, 97, 5);
         
